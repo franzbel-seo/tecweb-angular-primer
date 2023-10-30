@@ -1,0 +1,7 @@
+<p>Productos esta funcionando</p>
+<!--<p>{{datos | json}}</p>-->
+<div *ngFor="let dato of datos" class="contenedor">
+  <div>{{dato.title}}</div>
+  <div>{{dato.price}}</div>
+  <img src="{{dato.image}}" alt="">
+</div>
